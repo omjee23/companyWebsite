@@ -1,0 +1,12 @@
+
+.cardHoverone:hover .cardHoverlay{
+    transform: translateY(0%);
+}
+
+
+.cardHoverlay{
+    transform: translateY(-100%);
+    transition: all;
+    transition-duration: 300ms;
+    opacity: 0.7;
+}
